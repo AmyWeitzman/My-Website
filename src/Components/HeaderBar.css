@@ -1,0 +1,39 @@
+#name {
+    color: #9034c7;/*#ddacfa;;*/
+    font-size: 4rem;
+    text-align: center;
+    padding: 0rem;
+    margin: 1rem;
+    text-decoration: none;
+    text-shadow: 2px 2px 2px #d3d2d4;
+}
+
+#name-style {
+    font-style: normal;
+    font-weight: bold;
+    color: #9034c7;
+    transition: all .3s ease-in-out;
+    margin-right: 10px;
+}
+
+#name:hover {
+    transform: scale(1.05);
+}
+
+#links {
+    text-align: center;
+    text-decoration: none;
+    color: #9034c7;
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.tab {
+    padding: 35px;
+    display: inline;
+    color: #9034c7;
+}
+
+.link:hover {
+    color: #d3d2d4;
+}

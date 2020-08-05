@@ -1,0 +1,19 @@
+#my-pic {
+    width: 20rem;
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    float: left;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#bio {
+    display: inline;
+    font-size: 2rem;
+    line-height: 3rem;   
+}
+
+#hello-world {
+    color: #9034c7;
+}

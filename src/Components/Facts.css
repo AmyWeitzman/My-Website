@@ -1,0 +1,119 @@
+.fact {
+    font-size: 30px;
+    color: #d3d2d4;
+    /* margin-left: 5%; */
+    /* margin-right: 5%; */
+    transition: all .3s ease-in-out;
+    margin: 0;
+}
+
+.fact-name {
+    text-shadow: 4px 4px 4px #9034c7;
+    font-weight: bold;
+    background-color: black;
+    border: #9034c7 solid 2px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.fact:hover {
+    transform: scale(1.02);
+}
+
+.sub-fact {
+    text-indent: 5em;
+    font-size: 22px;
+    display: inline;
+}
+
+#facts-table {
+    width: 100%;
+}
+
+.fav-td {
+    text-align: center;
+    padding: 15px;
+    width: 33%;
+}
+
+.fact-td {
+    font-size: 30px;
+    width: 33%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.crimson {
+    color: #990000;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.sm-logo {
+    width: 2rem;
+}
+
+.md-logo {
+    width: 3rem;
+}
+
+.lg-logo {
+    width: 5rem;
+}
+
+.xl-logo {
+    width: 12rem;
+}
+
+.color-blue {
+    color: turquoise;
+}
+
+.color-red {
+    color: magenta;
+}
+
+.color-gold {
+    color: gold;
+}
+
+#big-bang-logo {
+    border-radius: 20px;
+}
+
+#pad-right {
+    padding-right: 150px;
+}
+
+#pad-top {
+    padding-top: 100px;
+}
+
+.tbl-title {
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+hr.line {
+    height: 3px;
+    background-color: #9034c7;
+    border: none;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#fun-facts-label {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.vert-line {
+    color: #9034c7;
+}

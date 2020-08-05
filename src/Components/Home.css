@@ -1,0 +1,26 @@
+#welcome-message {
+    font-size: 50px;
+    margin-top: 0;
+}
+
+.home-page-text {
+    font-size: 35px;
+}
+
+.centered {
+    text-align: center;
+}
+
+#purple {
+    color: #9034c7;
+}
+
+#connect-text {
+    color: #9034c7;
+    font-style: italic;
+    text-decoration: none;
+}
+
+#connect-text:hover {
+    text-decoration: underline;
+}

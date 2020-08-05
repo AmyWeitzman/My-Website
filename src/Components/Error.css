@@ -1,0 +1,7 @@
+#error-page {
+    background-color: blue;
+    padding: 80px;
+    text-align: center;
+    font-size: 2rem;
+    font-family:  'Courier New', Courier, monospace;
+}

@@ -1,0 +1,43 @@
+
+p { 
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+    margin: 2px;
+}
+
+.container {
+    background-color: #d3d2d4;
+    color: black;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.works-cited {
+    text-align: center;
+    text-indent: 0;
+}
+
+.reference {
+    text-indent: -40px;
+    padding-left: 50px;
+}
+
+a {
+    color: #2197ff;
+    text-decoration: underline;
+}
+
+.img {
+    padding: 10px;
+    text-align: center;
+}
+
+.img-caption {
+    font-size: 20px;
+    color: gray;
+}

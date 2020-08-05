@@ -1,0 +1,93 @@
+body {
+    /*background-color: #ddacfa;*/
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+}
+
+.content {
+    padding: 10px;
+    color: #d3d2d4;
+    margin: 20px;
+}
+
+.link {
+    color: #9034c7;
+    text-decoration: none;  
+    font-style: italic;
+    font-weight: normal; 
+}
+
+.rotate-y:hover {
+    /* color: #9034c7; */
+    transition        : 1.5s ease all;
+	-moz-transition   : 1.5s ease all;
+    -webkit-transition: 1.5s ease all;
+    transform               : rotateY(360deg);
+	-moz-transform          : rotateY(360deg);
+	-webkit-transform       : rotateY(360deg);
+	transform-origin        : center;
+	-moz-transform-origin   : center;
+	-webkit-transform-origin: center;
+}
+
+.github-icon {
+    color: black;
+    margin-left: 15px;
+}
+
+.github-icon-link {
+    color: black !important;
+}
+
+.github-icon-light {
+    text-shadow: none;
+    border-radius: 80px;
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 320px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+  
+    /* Fade in tooltip */
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  /* Tooltip arrow */
+  .tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 20%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  }

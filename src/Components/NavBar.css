@@ -1,0 +1,38 @@
+#nav-container {
+    text-align: center;
+}
+
+#nav-bar {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+li {
+    float: left;
+    margin: 10px;
+}
+
+li a {
+    display: inline;
+    color: #d3d2d4;
+    font-size: 2em;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #9034c7;
+    transition: all .2s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.05);
+}
+
+li a:hover {
+    color: #9034c7;
+    background-color: #d3d2d4;
+}
