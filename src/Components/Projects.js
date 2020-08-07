@@ -12,6 +12,8 @@ function Projects() {
         <br></br>
         <Project name="HouseHunt"></Project>
         <br></br>
+        <Project name="WikiRaces"></Project>
+        <br></br>
         <Project name="Jeopardy"></Project>
         <br></br>
         <Project name="MurderMysteries"></Project>

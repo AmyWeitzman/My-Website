@@ -6,6 +6,7 @@ import { name as nameJ, longText as longJ, shortText as shortJ, dates as datesJ,
 import { name as nameHH, longText as longHH, shortText as shortHH, dates as datesHH, techUsed as techHH, link as linkHH} from "../projects/HouseHunt";
 import { name as nameRL, longText as longRL, shortText as shortRL, dates as datesRL, techUsed as techRL, link as linkRL} from "../projects/ReaLife";
 import { name as nameVFT, longText as longVFT, shortText as shortVFT, dates as datesVFT, techUsed as techVFT, link as linkVFT} from "../projects/VisFuncTest";
+import { name as nameWiki, longText as longWiki, shortText as shortWiki, dates as datesWiki, techUsed as techWiki, link as linkWiki} from "../projects/WikiRaces";
 
 var projectInfo = {
     "MurderMysteries": {
@@ -47,11 +48,18 @@ var projectInfo = {
         dates: datesVFT,
         techUsed: techVFT,
         link: linkVFT,
+    },
+    "WikiRaces": {
+        name: nameWiki,
+        longText: longWiki,
+        shortText: shortWiki,
+        dates: datesWiki,
+        techUsed: techWiki,
+        link: linkWiki,
     }
 };
 
 function toggleShow(name, textLong, textShort) {
-    console.log(name);
     var button = document.getElementById("button-"+name);
     var text = document.getElementById("text-"+name);
   
