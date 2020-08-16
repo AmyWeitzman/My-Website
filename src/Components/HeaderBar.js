@@ -13,6 +13,7 @@ function HeaderBar() {
                         <i className="fab fa-github fa-xs"></i>
                     </a>
                 </span> */}
+                <h2 id="adjs">Passionate&ensp;<span class="vline">|</span>&ensp;Creative&ensp;<span class="vline">|</span>&ensp;Curious</h2>
             </h1>
             {/* <h3 id="links">
                 <a href="./images/Weitzman_Amy.pdf" download className="link">Resume</a>
